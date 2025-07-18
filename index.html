@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Vidéo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Mon Portfolio Vidéo</h1>
+    <p>Découvrez mes réalisations audiovisuelles</p>
+  </header>
+
+  <main>
+    <section class="video-section">
+      <h2>🎥 Vidéo hébergée localement</h2>
+      <video controls width="100%">
+        <source src="videos/exemple.mp4" type="video/mp4" />
+        Votre navigateur ne supporte pas la vidéo.
+      </video>
+      <p>Description : Vidéo corporate réalisée en janvier 2025.</p>
+    </section>
+
+    <section class="video-section">
+      <h2>📺 Vidéo YouTube intégrée</h2>
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                title="Vidéo YouTube"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+        </iframe>
+      </div>
+      <p>Description : Bande-annonce pour un événement culturel à Madagascar.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 – Nom de ton agence. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
